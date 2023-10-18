@@ -17,53 +17,813 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
     <Grid Background = "White" Width="512" Height="512" RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
-        <Grid Grid.Row="0" Background="Red" Height="32">
-            <Label> 1 </Label>
+        
+        
+        <Grid Grid.Row="0" Background="Red" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+            <Grid Column="0" Height="32">
+                 <Label x:Name="R0C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R0C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R0C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R0C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R0C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R0C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R0C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R0C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R0C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R0C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R0C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R0C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R0C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R0C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R0C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R0C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="1" Background="Orange" Height="32">
-            <Label Name=""> 2 </Label>
+        
+        
+        <Grid Grid.Row="1" Background="Orange" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+            <Grid Column="0" Height="32">
+               <Label x:Name="R1C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+               <Label x:Name="R1C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+               <Label x:Name="R1C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+               <Label x:Name="R1C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+               <Label x:Name="R1C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+               <Label x:Name="R1C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+               <Label x:Name="R1C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+               <Label x:Name="R1C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+               <Label x:Name="R1C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+               <Label x:Name="R1C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+               <Label x:Name="R1C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+               <Label x:Name="R1C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+               <Label x:Name="R1C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+               <Label x:Name="R1C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+               <Label x:Name="R1C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+               <Label x:Name="R1C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="2" Background="Yellow" Height="32">
-            
+        
+        
+        <Grid Grid.Row="2" Background="Yellow" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+            <Grid Column="0" Height="32">
+               <Label x:Name="R2C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+               <Label x:Name="R2C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+               <Label x:Name="R2C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+               <Label x:Name="R2C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+               <Label x:Name="R2C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+               <Label x:Name="R2C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+               <Label x:Name="R2C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+               <Label x:Name="R2C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+               <Label x:Name="R2C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+               <Label x:Name="R2C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+               <Label x:Name="R2C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+               <Label x:Name="R2C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+               <Label x:Name="R2C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+               <Label x:Name="R2C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+               <Label x:Name="R2C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+               <Label x:Name="R2C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="3" Background="Chartreuse" Height="32">
-            
+       
+       
+        <Grid Grid.Row="3" Background="Chartreuse" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R3C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R3C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R3C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R3C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R3C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R3C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R3C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R3C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R3C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R3C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R3C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R3C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R3C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R3C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R3C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R3C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="4" Background="Lime" Height="32">
-            
+        <Grid Grid.Row="4" Background="Lime" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R4C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R4C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R4C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R4C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R4C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R4C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R4C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R4C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R4C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R4C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R4C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R4C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R4C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R4C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R4C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R4C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="5" Background="Green" Height="32">
-            
+        <Grid Grid.Row="5" Background="Green" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R5C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R5C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R5C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R5C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R5C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R5C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R5C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R5C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R5C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R5C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R5C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R5C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R5C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R5C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R5C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R5C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="6" Background="DarkGreen" Height="32">
-            
+        <Grid Grid.Row="6" Background="DarkGreen" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R6C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R6C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R6C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R6C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R6C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R6C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R6C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R6C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R6C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R6C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R6C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R6C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R6C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R6C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R6C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R6C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="7" Background="Turquoise" Height="32">
-            
+        <Grid Grid.Row="7" Background="Turquoise" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R7C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R7C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R7C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R7C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R7C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R7C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R7C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R7C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R7C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R7C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R7C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R7C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R7C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R7C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R7C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R7C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="8" Background="Teal" Height="32">
-            
+        <Grid Grid.Row="8" Background="Teal" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+            <Grid Column="0" Height="32">
+                 <Label x:Name="R8C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R8C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R8C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R8C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R8C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R8C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R8C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R8C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R8C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R8C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R8C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R8C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R8C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R8C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R8C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R8C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="9" Background="RoyalBlue" Height="32">
-            
+        <Grid Grid.Row="9" Background="RoyalBlue" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R9C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R9C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R9C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R9C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R9C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R9C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R9C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R9C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R9C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R9C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R9C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R9C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R9C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R9C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R9C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R9C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="10" Background="Blue" Height="32">
-            
+        <Grid Grid.Row="10" Background="Blue" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R10C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R10C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R10C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R10C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R10C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R10C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R10C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R10C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R10C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R10C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R10C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R10C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R10C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R10C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R10C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R10C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="11" Background="BlueViolet" Height="32">
-            
+        <Grid Grid.Row="11" Background="BlueViolet" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R11C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R11C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R11C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R11C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R11C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R11C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R11C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R11C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R11C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R11C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R11C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R11C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R11C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R11C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R11C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R11C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="12" Background="Indigo" Height="32">
-            
+        <Grid Grid.Row="12" Background="Indigo" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R12C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R12C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R12C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R12C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R12C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R12C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R12C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R12C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R12C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R12C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R12C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R12C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R12C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R12C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R12C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R12C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="13" Background="Fuchsia" Height="32">
-            
+        <Grid Grid.Row="13" Background="Fuchsia" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R13C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R13C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R13C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R13C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R13C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R13C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R13C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R13C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R13C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R13C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R13C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R13C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R13C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R13C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R13C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R13C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="14" Background="HotPink" Height="32">
-            
+        <Grid Grid.Row="14" Background="HotPink" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R14C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R14C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R14C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R14C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R14C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R14C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R14C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R14C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R14C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R14C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R14C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R14C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R14C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R14C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R14C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R14C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="15" Background="LightPink" Height="32">
-            
+        <Grid Grid.Row="15" Background="LightPink" Height="32" ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+                        <Grid Column="0" Height="32">
+                 <Label x:Name="R15C0" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="1" Height="32">
+                <Label x:Name="R15C1" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="2" Height="32">
+                <Label x:Name="R15C2" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="3" Height="32">
+                <Label x:Name="R15C3" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="4" Height="32">
+                <Label x:Name="R15C4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="5" Height="32">
+                <Label x:Name="R15C5" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="6" Height="32">
+                <Label x:Name="R15C6" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="7" Height="32">
+                <Label x:Name="R15C7" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="8" Height="32">
+                <Label x:Name="R15C8" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="9" Height="32">
+                <Label x:Name="R15C9" Content="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="10" Height="32">
+                <Label x:Name="R15C10" Content="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="11" Height="32">
+                <Label x:Name="R15C11" Content="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="12" Height="32">
+                <Label x:Name="R15C12" Content="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="13" Height="32">
+                <Label x:Name="R15C13" Content="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="14" Height="32">
+                <Label x:Name="R15C14" Content="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Column="15" Height="32">
+                <Label x:Name="R15C15" Content="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
         
     </Grid>
