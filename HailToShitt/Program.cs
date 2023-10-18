@@ -20,4 +20,5 @@ class Program
             .WithInterFont()
             .LogToTrace()
             .UseReactiveUI();
+    
 }

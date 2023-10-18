@@ -4,6 +4,8 @@
     <option name="projectPerEditor">
       <map>
         <entry key="HailToShit/Views/MainWindow.axaml" value="HailToShit/HailToShit.csproj" />
+        <entry key="HailToShitt/App.axaml" value="HailToShitt/HailToShitt.csproj" />
+        <entry key="HailToShitt/Views/MainWindow.axaml" value="HailToShitt/HailToShitt.csproj" />
       </map>
     </option>
   </component>
