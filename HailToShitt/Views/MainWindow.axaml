@@ -3,22 +3,71 @@
         xmlns:vm="using:HailToShit.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
         mc:Ignorable="d" d:DesignWidth="512" d:DesignHeight="512"
         x:Class="HailToShit.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="HailToShitt">
+        
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
-        
     </Design.DataContext>
-
-    <Grid>
+    <Grid Background = "White" Width="512" Height="512" RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*">
+        <Grid Grid.Row="0" Background="Red" Height="32">
+            <Label> 1 </Label>
+        </Grid>
+        <Grid Grid.Row="1" Background="Orange" Height="32">
+            <Label Name=""> 2 </Label>
+        </Grid>
+        <Grid Grid.Row="2" Background="Yellow" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="3" Background="Chartreuse" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="4" Background="Lime" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="5" Background="Green" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="6" Background="DarkGreen" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="7" Background="Turquoise" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="8" Background="Teal" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="9" Background="RoyalBlue" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="10" Background="Blue" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="11" Background="BlueViolet" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="12" Background="Indigo" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="13" Background="Fuchsia" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="14" Background="HotPink" Height="32">
+            
+        </Grid>
+        <Grid Grid.Row="15" Background="LightPink" Height="32">
+            
+        </Grid>
         
     </Grid>
+   
     
 
 </Window>
