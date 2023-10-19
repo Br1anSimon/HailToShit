@@ -7,6 +7,8 @@ using System.Transactions;
 using Avalonia.Controls;
 using Avalonia.Svg.Skia;
 using HailToShit.ViewModels;
+using SkiaSharp;
+using Svg.Skia;
 using Image = Avalonia.Controls.Image;
 
 
@@ -18,13 +20,9 @@ public partial class MainWindow : Window
     
     public MainWindow()
     {
-        using var fileStream = File.OpenRead("C:/Users/pc/Documents/anotherimagetoview.jpg");
-        ImageToLoad = new Bitmap(fileStream);
         InitializeComponent();
         gameThread = new Thread(new ThreadStart(GameLoop));
         gameThread.Start();
-        
-
     }
     
     public void GameLoop()
