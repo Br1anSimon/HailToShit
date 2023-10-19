@@ -2,21 +2,29 @@ using System;
 using System.Threading;
 using System;
 using System.Drawing;
+using System.IO;
 using System.Transactions;
 using Avalonia.Controls;
+using Avalonia.Svg.Skia;
+using HailToShit.ViewModels;
+using Image = Avalonia.Controls.Image;
+
 
 namespace HailToShit.Views;
 
 public partial class MainWindow : Window
 {
     Thread gameThread;
+    
     public MainWindow()
     {
-        gameThread = new Thread(new ThreadStart(GameLoop));
+        using var fileStream = File.OpenRead("C:/Users/pc/Documents/anotherimagetoview.jpg");
+        ImageToLoad = new Bitmap(fileStream);
         InitializeComponent();
-        Graphics g;
+        gameThread = new Thread(new ThreadStart(GameLoop));
         gameThread.Start();
         
+
     }
     
     public void GameLoop()
@@ -35,11 +43,12 @@ public partial class MainWindow : Window
 
     public void update()
     {
-        
     }
 
     public void paintComponent(Graphics g)
     {
         paintComponent(g);
     }
+
+    
 }

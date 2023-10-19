@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>BrianFront</title>
+	<defs>
+		<image  width="26" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAMAAAA7dZg3AAAAAXNSR0IB2cksfwAAAKJQTFRFAAAAWTUYPyMMc0kmAAAAx6Btpn9Rr4hZupNi////qYhdkHRPAAAAAAD/AADw/9RHJyfZMDDiAACo471AAACMPj7wExPFHR3P1LGKQ0P/RUX/AADPAACyNTWoFRXqGhrvOjriu5ZmYQAAfwAA27YA/9gAgWhHHx8fAQEBGRkZFhYWJiYmxCQk+aenuBgY/wD/7hERoQAA3KGhPAAAoQAAAAAATJtHogAAADZ0Uk5TAP//////////////A///////////////9fH0/////////////9P///////////8J/////wcBWlkQmwAAAW5JREFUeJyNkGt7gjAMhQO0XnAtFQeIOjdEh2x4n///r+2kMC3fdnho0vM2oYSoled7Hr8BArmC68PF4nH0XBJ0BW3mMJznxwZb/WDoEgTtx2xxgPCHRHvS9pLStn00DGyB78tW7kUCKQeDwVDKIQT0KAIaSTkWXCDGUo4cQsTIY+Qxov8jyd9rr9FDFIZShuGE10mf0AvbQgCErq00FE24CG/EO9URM50aE89eraLY8F4z0UlqoFhF2XyezbKYd2nCTOcLsBjOLIoiY5bI0kXeohx1MXcBwRqjJmeklEmS1RuQMVm2Xr+vl9kq+TBat9fTOmaQpplCb63w4JIF/l4pFD9FWsEsgIoCkxGbstzudtuy3Agi9goE+SlJVFW1r7pFECw7SJ6nqNmta0Y1UPEcsfiC9kLsEb5Fb7qiORyaI52OHPuoOUMNnbro6HJuYF444ezioCsfPt+Ibja5uqhhMbKJi+jG+iG62+RuvV8gYScEBvQZoAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="3" y="0"/>
+</svg>

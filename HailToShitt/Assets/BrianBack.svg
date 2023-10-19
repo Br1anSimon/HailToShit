@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>BrianBack</title>
+	<defs>
+		<image  width="26" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAMAAAA7dZg3AAAAAXNSR0IB2cksfwAAAXFQTFRFAAAAWTUYPyMMc0kmWDQZUjAVUzEVRScPbUQjbEQiRigPbEQjWTMZWDMYZj8fXDgZXDgaAAAAXDYaTC0TXzobWzUZAAD/AADwLifW/tRKYDoc/tBIJyfZMDDiAACo/tZG/NhK/tZI/NZI/9RK/tNK/9hH/NFEPj7wKC3YKSjaHR3PLCfXKirbKSjXKyjZQ0P/RUX/KSjZKSzZJyjbKizXLSnZAADPJyjYKyjaJijbKizbKiraLSraNTWoFRXqGhrvKijZOjriExPFmHdTx6BtmHZUl3lTu5ZmAAAAYQAAfwAAggMBggECgAQCm3hVmHZTu5Vnm3tUHx8fAQEBmnxVvZZml3RSl3hTmntUmHdSGRkZl3ZRm3pVFhYWJiYmxCQkxiglxSYquBgY/wD/wionxiUl7hEROgEB7RMU8BQYPgMCPwMD7BQT7hYTPwECOwEBxCQjxCklxiYnPAAAxSUmxSYmxSMjOgEAPQABoQAAAAAAcC//3gAAAHt0Uk5TAP////////////////////8D///////////////////////////////////////x9P//////////////////////////////////////////////////////////////////Cf///////////////////////////wcB4rEFRwAAAblJREFUeJxlkAlb1DAQhictdNmKKIqJQKgHaKUKC8p9LIoFwoKou+KxouUyIDcsoPDrmekuNX38+jQzmbffZFKAqpjFGL02BjCFVQuruDCKzCR2zVDNDIbf0xOH2J0w7GLb1cNis43hGtVRM2MOXJOGdnoO+7/DEpedmBBZVsplXsxi5vTpO1us3mEZ1hC7UogmdrIZl7k30JxC0HjTZVls1+Tcup0m0HzHce62uBm34Z5Z5kKI+63ZDJ7jtLW0407wGpEdHVJ6Dx4+etzZ9eSpJ2kviAj/mUR5vDt4/iLoCTza9frERK6vHwlWXr4aGJRyCLPhvlwV5fwR6VGX0TFaPTnu5whxLn1/YhKRlEGQz0/lh4LX/hspRDweyiMwPR1w7C04Pjjk2zAMOUfzP4HgWJyB2XBuLgRQ84XCwuLiu0JhXgFQbQngffjhI6hisVgq1hYFn5bDz3SxL1+/gSpTtVwmVFaw9H0l+VfqB6qkVAnDT5X6uypaXYvWYWM92vwVpVGkURFs1KKhLb39W+sdgF2t9/b1gYEO9dHxia4AVPTp2Tklif5EJEJx8tfsWCFdAFzGyWVcuwKFVFTS4ItZYAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="3" y="0"/>
+</svg>
